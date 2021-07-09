@@ -26,7 +26,7 @@ namespace Acme.Common
             var confirmation = "Message sent: " + subject;
             var loggingService = new LoggingService();
             loggingService.LogAction(confirmation);
-            return confirmation;
+            return confirmation; 
         }
 
     }
